@@ -38,10 +38,10 @@ env:
   DISCOURSE_HOSTNAME: 'discourse.example.com'
   ##
   ## TODO: The mailserver this Discourse instance will use
-  DISCOURSE_SMTP_ADDRESS: smtp.example.com         # (mandatory)
-  #DISCOURSE_SMTP_PORT: 587                        # (optional)
-  #DISCOURSE_SMTP_USER_NAME: user@example.com      # (optional)
-  #DISCOURSE_SMTP_PASSWORD: pa$$word               # (optional)
+  DISCOURSE_SMTP_ADDRESS: smtp.gmail.com         # (mandatory)
+  DISCOURSE_SMTP_PORT: 465                      # (optional)
+  DISCOURSE_SMTP_USER_NAME: sullivanvalaer@immersivemedia.com     # (optional)
+  DISCOURSE_SMTP_PASSWORD: oJdEgqSE!xEIs8*sH4&             # (optional)
   ##
   ## The CDN address for this Discourse instance (configured to pull)
   #DISCOURSE_CDN_URL: //discourse-cdn.example.com

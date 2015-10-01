@@ -8,7 +8,7 @@ opt=$3
 re='[A-Z/ !@#$%^&*()+~`=]'
 if [[ $config =~ $re ]];
   then
-    echo 
+    echo
     echo "ERROR: Config name must not contain upper case characters, spaces or special characters. Correct config name and rerun $0."
     echo
     exit 1
