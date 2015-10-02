@@ -1,11 +1,8 @@
 ## HOST AND DNS
 - Hosting and dns services in the test environment are done by vagrant-hostsupdater
 
-##info
-
-- mail through maildev
-- in docker run `docker run -p 1080:80 -p 1025:25 djfarrelly/maildev`
-- `http://djfarrelly.github.io/MailDev/`
+## MAKING ADMIN USERS
+- https://meta.discourse.org/t/create-admin-account-from-console/17274
 
 ### About
 
